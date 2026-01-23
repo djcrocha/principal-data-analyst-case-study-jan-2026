@@ -1,0 +1,11 @@
+# ---- Load Data ----
+
+# libraries
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(readxl, here)
+
+path_raw <- 
+  here("02.data", "raw", "ab-test-dataset.xlsx")
+
+df_raw <-
+  read_xlsx(path_raw)

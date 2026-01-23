@@ -1,0 +1,84 @@
+# -------------------------
+# Data files (generic)
+# -------------------------
+*.csv
+*.tsv
+*.psv
+*.txt
+*.dat
+
+*.json
+*.jsonl
+*.ndjson
+
+*.xml
+*.yaml
+*.yml
+
+*.parquet
+*.feather
+*.arrow
+*.orc
+*.avro
+
+*.xlsx
+*.xls
+*.ods
+
+*.rds
+*.RData
+*.Rhistory
+
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------
+# Data folders (common)
+# -------------------------
+data/
+raw/
+processed/
+interim/
+output/
+exports/
+inputs/
+datasets/
+
+# -------------------------
+# Large / temp / cache
+# -------------------------
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+
+*.log
+*.tmp
+*.temp
+
+.cache/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+__pycache__/
+
+
+renv/library/
+renv/staging/
+renv/python/
+
+!renv/settings.json
+!renv/activate.R
+!.Rprofile
+!renv.lock

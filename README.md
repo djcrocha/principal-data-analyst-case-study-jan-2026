@@ -11,6 +11,13 @@ Analysis of a 30-day A/B test evaluating a new search feature on Hostelworld's m
 
 ## Reproducing the Analysis
 
+### Prepare the Raw Dataset
+Place the original Excel file provided by Hostelworld in the raw data directory:
+
+01.data/raw/ab-test-dataset.xlsx
+
+**Note**: The `01_load_data.R` script expects the file in this exact location.
+
 ### Prerequisites
 - R version 4.x or higher
 - RStudio (recommended)
